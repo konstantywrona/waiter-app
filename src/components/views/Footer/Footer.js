@@ -1,5 +1,9 @@
 const Footer = () => {
-  return <h2>Footer</h2>;
+  return (
+    <div className="text-center text-muted p-4">
+      Copyright &copy; Waiter.app 2023
+    </div>
+  );
 };
 
 export default Footer;
