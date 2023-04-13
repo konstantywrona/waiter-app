@@ -25,7 +25,7 @@ export const editTableRequest = (editTableData) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ editTableData }),
+      body: JSON.stringify(editTableData),
     };
     fetch(`http://localhost:3131/api/tables/${editTableData.id}`, options).then(
       () => dispatch(editTable(editTableData))

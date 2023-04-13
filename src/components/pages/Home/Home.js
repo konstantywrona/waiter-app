@@ -1,4 +1,4 @@
-import TableContainer from '../../features/TableContainer';
+import Tables from '../../features/Tables';
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
       <div className="d-flex justify-content-between">
         <h1>All tables</h1>
       </div>
-      <TableContainer />
+      <Tables />
     </>
   );
 };
