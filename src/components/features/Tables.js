@@ -9,7 +9,7 @@ const TableContainer = () => {
   return (
     <>
       {tables.map((table) => (
-        <Card>
+        <Card key={table.id}>
           <Card.Body>
             <Row>
               <Col xs={2}>
