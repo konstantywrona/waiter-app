@@ -46,10 +46,10 @@ const TableCard = () => {
               value={status}
               onChange={(e) => setStatus(e.target.value)}
             >
-              <option value="busy">Busy</option>
-              <option value="free">Free</option>
-              <option value="cleaning">Cleaning</option>
-              <option value="reserved">Reserved</option>
+              <option value="Busy">Busy</option>
+              <option value="Free">Free</option>
+              <option value="Cleaning">Cleaning</option>
+              <option value="Reserved">Reserved</option>
             </Form.Select>
           </Col>
         </Form.Group>
